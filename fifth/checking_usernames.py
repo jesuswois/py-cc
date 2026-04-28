@@ -9,3 +9,14 @@
 # that the username is available.
 # • Make sure your comparison is case insensitive. If 'John' has been used,
 # 'JOHN' should not be accepted.
+
+current_users = ["John","JOE","rob","Ross","Pete"]
+current_users_lowered = [value.lower() for value in current_users]
+
+new_users = ["hannah","jenny","joe","damian","pete"]
+
+for new_user in new_users:
+    if new_user.lower() in current_users_lowered:
+        print("This username has already been used! Please enter a different username")
+    else:
+        print("This username is available!")

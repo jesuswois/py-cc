@@ -8,12 +8,12 @@
 # runs the else block.
 alien_color = "cyan"
 
-if alien_color=="green":
+if alien_color == "green":
     print("You've earned 5 points!")
 else:
     print("You've earned 10 points!")
 
-if alien_color=="blue":
+if alien_color == "blue":
     print("You've earned 15 points!")
-elif alien_color!="green":
+elif alien_color != "green":
     print("You've earned 100 points!")

@@ -15,7 +15,13 @@ print(game=='terraria')
 print("Is game == 'minecraft'? I predict False.")
 print(game=='minecraft?')
 
+animal = "dog"
 
+print("Is animal == 'cat'? I predict False.")
+print(animal=='cat')
+
+print("Is animal == 'dog'? I predict False.")
+print(animal=='dog?')
 
 # • Look closely at your results, and make sure you understand why each line
 # evaluates to True or False.

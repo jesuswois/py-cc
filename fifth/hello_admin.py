@@ -7,3 +7,11 @@
 
 # • Otherwise, print a generic greeting, such as Hello Eric, thank you for log-
 # ging in again.
+
+users = ["johny","admin","phillip","han","robby"]
+
+for user in users:
+    if user == "admin":
+        print("Hello admin, would you like to see a status report?")
+    else:
+        print("Hello "+user+", thank you for logging in again.")
