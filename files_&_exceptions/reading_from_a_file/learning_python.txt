@@ -1,0 +1,5 @@
+In Python you can save information in variables.
+In Python you can store information in lists, which allows multiple data in a single variable
+In Python you can execute code according to whether a conditions is meet or not.
+In Python you can create classes, which are meant to represent an object of real life.
+In Python you can execute a set of instructions till a condition you define is true.
