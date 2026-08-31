@@ -9,3 +9,9 @@
 # 'population=5000000'. Run test_cities.py again, and make sure this new test
 # passes.
 
+def formatPlace(city, country, population = None):
+    formatted = f"{city}, {country}".title()
+    if population:
+        formatted += f' - population {population}'
+    formatted += '.'
+    return formatted
