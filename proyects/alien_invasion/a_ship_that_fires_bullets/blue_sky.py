@@ -1,0 +1,2 @@
+# 12-1. Blue Sky: Make a Pygame window with a blue background.
+
