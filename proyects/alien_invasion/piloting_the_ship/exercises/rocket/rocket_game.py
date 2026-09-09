@@ -4,15 +4,20 @@
 # screen.
 
 import pygame
+from settings import Settings
+from rocket import Rocket
+import game_functions as gf
 
 def run_game():
     pygame.init()
-
-    screen = pygame.display.set_mode((600,1200))
+    game_settings = Settings()
+    screen = pygame.display.set_mode((game_settings.screen_width, game_settings.screen_height))
     pygame.display.set_caption("Rocket")
-    rocket = Rocket(game_settings.rocket_movement_multiplier,screen)
+    rocket = Rocket(game_settings, screen)
 
     while True:
+        gf.check_events(rocket)
+        rocket.update()
+        gf.update_screen(game_settings.bg_color, screen, rocket)
 
-
-        pygame.display.flip()
+run_game()
